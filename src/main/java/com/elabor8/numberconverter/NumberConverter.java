@@ -12,9 +12,13 @@ class NumberConverter {
 
     static String convert(int numberToConvert) {
 
-        if (numberToConvert == 0) return "zero";
+        if (isZero(numberToConvert)) return "zero";
 
         return unitStrings[numberToConvert];
+    }
+
+    private static boolean isZero(int numberToConvert) {
+        return numberToConvert==0;
     }
 
 }
