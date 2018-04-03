@@ -7,5 +7,6 @@ Feature: Convert numbers from integers to string representations
 
     Examples:
     | number  | numberAsString  |
+    | 0       | zero            |
     | 1       | one             |
     | 2       | two             |
