@@ -1,16 +1,19 @@
 package com.elabor8.numberconverter;
 
-public class NumberConverter {
+class NumberConverter {
 
     private NumberConverter() {}
 
     private static String[] unitStrings = {
-            "zero",
+            "",
             "one",
             "two"
     };
 
-    public static String convert(int numberToConvert) {
+    static String convert(int numberToConvert) {
+
+        if (numberToConvert == 0) return "zero";
+
         return unitStrings[numberToConvert];
     }
 
