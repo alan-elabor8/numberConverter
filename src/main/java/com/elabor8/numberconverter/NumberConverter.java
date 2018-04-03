@@ -15,7 +15,7 @@ public class NumberConverter {
     }
 
     public static void brokenCode() {
-        String couldBeNull = null;
+        String couldBeNull = "Hello";
         System.out.println(couldBeNull.length());
     }
 }
