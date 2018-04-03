@@ -13,4 +13,9 @@ public class NumberConverter {
     public static String convert(int numberToConvert) {
         return unitStrings[numberToConvert];
     }
+
+    public static void brokenCode() {
+        String couldBeNull = null;
+        System.out.println(couldBeNull.length());
+    }
 }
