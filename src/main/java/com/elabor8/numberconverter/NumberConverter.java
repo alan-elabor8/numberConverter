@@ -20,5 +20,4 @@ class NumberConverter {
     private static boolean isZero(int numberToConvert) {
         return numberToConvert==0;
     }
-
 }
